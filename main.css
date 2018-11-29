@@ -1,0 +1,139 @@
+
+/*@media only screen and (max-width: 479px) {
+    /* start of phone styles */
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5b5858
+}
+
+#quote-box {
+    width: 90%;
+    margin:auto auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+#quote-text{
+    display: grid;
+    grid-template-columns: 0.5fr 6fr 0.5fr;
+}
+
+#text {
+    justify-self: start;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 25px;
+    font-size:5vw; 
+    font-weight: bold;
+}
+
+#quote-author{
+    justify-self:center;
+    padding: 6vw 6vw;
+}
+
+#author, #quote-author {
+    font-size:3.5vw; 
+}
+
+#buttons{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10vw;
+    
+}
+
+.button{
+    justify-self:center;
+    padding: 2vw 5vw;
+    border: none;
+    text-decoration:none;
+    font-size:4vw; 
+    background-color:#5b5858; 
+    color:white;
+    border-radius:10%;
+    cursor: pointer;  
+    font-weight: bolder;
+}
+
+#tweet-quote{
+    justify-self: end;
+}
+
+
+.button:hover {
+    background-color: white;
+    color:#5b5858;   
+    font-weight: bold;       
+}
+
+@media only screen and (min-width: 600px) {
+    /* start of large tablet styles,  */
+
+    #text {
+        padding-top: 25px;
+        font-size:3.5vw; 
+    }
+
+    #quote-author{
+        justify-self:center;
+        padding: 4vw 4vw;
+    }
+    
+    #author, #quote-author {
+        font-size:3vw; 
+    }
+
+    .button{
+        padding: 1.5vw 3vw;
+        font-size:3vw; 
+        font-weight: 400;
+    }
+    }
+    
+    @media only screen and (min-width: 900px) {
+    /* start of medium tablet styles */
+    #quote-box {
+        width: 50%;
+    }
+    #text {
+        padding-top: 25px;
+        font-size:2vw; 
+    }
+
+    #quote-author{
+        justify-self:center;
+        padding: 1vw 4vw;
+    }
+    
+    #author, #quote-author {
+        font-size:1.5vw; 
+    }
+
+    .button{
+        justify-self:end;
+        padding: 0.9vw;
+        font-size:1.3vw; 
+    }
+
+    #tweet-quote{
+        justify-self: center;
+    }
+    }
+
+
+
+
+    
+    
+    
+
